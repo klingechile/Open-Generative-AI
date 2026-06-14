@@ -266,12 +266,12 @@ export default function StandaloneShell() {
 
       {/* Vadoo promo banner */}
       {showVadooBanner && (
-        <div className="flex-shrink-0 w-full bg-[#d9ff00] flex items-center justify-center px-4 py-2 gap-3 relative z-50">
+        <div className="flex-shrink-0 w-full bg-indigo-600 flex items-center justify-center px-4 py-2 gap-3 relative z-50">
           <a
             href="https://vadoo.tv"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[13px] font-bold text-black hover:opacity-80 transition-opacity text-center"
+            className="text-[13px] font-bold text-white hover:opacity-80 transition-opacity text-center"
           >
             Unrestricted AI Images &amp; Videos → Auto-Publish as YouTube Shorts &amp; TikToks, Earn ↗
           </a>
@@ -280,7 +280,7 @@ export default function StandaloneShell() {
               setShowVadooBanner(false);
               localStorage.setItem('vadoo_banner_dismissed', '1');
             }}
-            className="absolute right-3 text-black/50 hover:text-black transition-colors text-lg leading-none"
+            className="absolute right-3 text-white/60 hover:text-white transition-colors text-lg leading-none"
             aria-label="Dismiss"
           >
             ✕
